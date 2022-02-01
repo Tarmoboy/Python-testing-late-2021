@@ -7,8 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Lasketaan kitkattoman tennispallon liikerata kaksiulotteisessa avaruudessa 
-# (x,y)(x,y)(x,y) 2 sekunnin ajan lyönnin jälkeen. Välittömästi lyönnin 
-# jälkeen pallo etenee 45 asteen kulmassa yläviistoon nopeudella 20 m/s. 
+# (x,y) 2 sekunnin ajan lyönnin jälkeen. Välittömästi lyönnin jälkeen
+# pallo etenee 45 asteen kulmassa yläviistoon nopeudella 20 m/s. 
 # Ainoa voima, joka palloon vaikuttaa on gravitaatio y-suunnassa.
 # Käytä Eulerin menetelmää, jossa seuraavan aika-askeleen arvot paikalle ja 
 # nopeudelle riippuvat nykyisestä paikasta, nopeudesta ja kiihtyvyydestä sekä 
